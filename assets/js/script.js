@@ -2,8 +2,8 @@
 var dayDisplay = $("#currentDay"); //Where the date will be displayed
 var container = $(".container"); //Where the timeblock will be displayed
 
-// var timeBlocks = ['8AM','9AM','10AM','11AM','12PM','1PM','2PM','3PM','4PM','5PM'];
-var timeBlocks = ['8AM','9AM','10AM','11AM','12PM','1PM','2PM','3PM','4PM','5PM','6PM','7PM','8PM','9PM','10PM','11PM'];
+var timeBlocks = ['9AM','10AM','11AM','12PM','1PM','2PM','3PM','4PM','5PM'];
+// var timeBlocks = ['8AM','9AM','10AM','11AM','12PM','1PM','2PM','3PM','4PM','5PM','6PM','7PM','8PM','9PM','10PM','11PM'];
 var timeObj; //global object for the scheduler
 
 var now = moment(); //current time
